@@ -50,17 +50,7 @@ The division by 2 is required because the ultrasonic wave travels from the senso
 The **VCC** and **GND** pins of the HC-SR04 are connected to the corresponding power and ground pins of the Arduino UNO. The **TRIG** and **ECHO** pins are connected to Arduino digital pins for transmitting and receiving the ultrasonic signal.
 
 An LED is connected to another digital output pin through a **current-limiting resistor**. The Arduino controls the LED based on the distance detected by the ultrasonic sensor.
-
-**Suggested circuit connections:**
-
-| Component | Arduino UNO |
-| ----- | ----- |
-| HC-SR04 VCC | 5V |
-| HC-SR04 GND | GND |
-| HC-SR04 TRIG | Digital Pin 9 |
-| HC-SR04 ECHO | Digital Pin 10 |
-| LED Anode (+) | Digital Pin 13 through resistor |
-| LED Cathode (-) | GND |
+![circuit](circuit.jpeg)
 
 ## **7\. Advantages**
 
@@ -87,6 +77,7 @@ The system can be used in:
 ## **9\. Result**
 
 The **Arduino-based ultrasonic proximity detection system** was successfully designed and implemented. The HC-SR04 sensor accurately detects the presence of an object by measuring its distance, while the LED provides a visual indication when the object enters the defined detection range.
+![result](result.jpeg)
 
 ## **10\. Conclusion**
 
